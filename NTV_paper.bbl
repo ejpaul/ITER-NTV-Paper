@@ -1,0 +1,138 @@
+\begin{thebibliography}{10}
+
+\bibitem{Barnes2013}
+M.~Barnes, F.~I. Parra, J.~P. Lee, E.~A. Belli, M.~F.~F. Nave, and A.~E. White.
+\newblock {Intrinsic rotation driven by non-maxwellian equilibria in tokamak
+  plasmas}.
+\newblock {\em Physical Review Letters}, 111(5):1--5, 2013.
+
+\bibitem{Chuyanov2010}
+V.~A. Chuyanov, D.~J. Campbell, and L.~M. Giancarli.
+\newblock {TBM Program implementation in ITER}.
+\newblock {\em Fusion Engineering and Design}, 85(10-12):2005--2011, 2010.
+
+\bibitem{Ciric2011}
+D.~{\'{C}}iri{\'{c}}, A.~D. Ash, B.~Crowley, I.~E. Day, S.~J. Gee, L.~J.
+  Hackett, D.~A. Homfray, I.~Jenkins, T.~T.~C. Jones, D.~Keeling, D.~B. King,
+  R.~F. King, M.~Kovari, R.~McAdams, E.~Surrey, D.~Young, and J.~Zacks.
+\newblock {Performance of upgraded JET neutral beam injectors}.
+\newblock {\em Fusion Engineering and Design}, 86(6-8):509--512, 2011.
+
+\bibitem{Crume1988}
+E.~C. Crume, K.~C. Shaing, S.~P. Hirshman, and W.~I.~V. Rij.
+\newblock {Transport scaling in the collisionless ‐ detrapping regime in
+  stellarators}.
+\newblock 11(1988), 1988.
+
+\bibitem{DeVries2008}
+P.~C. de~Vries, M.-D. Hua, D.~C. McDonald, C.~Giroud, M.~Janvier, M.~F.
+  Johnson, T.~J.~J. Tala, K.-D. Zastrow, and {the JET EFDA Contributors}.
+\newblock {Scaling of rotation and momentum confinement in JET plasmas}.
+\newblock {\em Nuclear Fusion}, 48(6):65006, 2008.
+
+\bibitem{Hawryluk1980}
+R.~Hawryluk et~al.
+\newblock An empirical approach to tokamak transport.
+\newblock {\em Physics of plasmas close to thermonuclear conditions}, 1:19--46,
+  1980.
+
+\bibitem{Hillesheim2015}
+J.~Hillesheim, F.~Parra, M.~Barnes, N.~Crocker, H.~Meyer, W.~Peebles,
+  R.~Scannell, and a.~Thornton.
+\newblock {Dependence of intrinsic rotation reversals on collisionality in
+  MAST}.
+\newblock {\em Nuclear Fusion}, 55(3):032003, 2015.
+
+\bibitem{Hirshman1986}
+S.~Hirshman, W.~van RIJ, and P.~Merkel.
+\newblock {Three-dimensional free boundary calculations using a spectral
+  Green's function method}.
+\newblock {\em Computer Physics Communications}, 43(1):143--155, 1986.
+
+\bibitem{Jardin1986}
+S.~C. Jardin, N.~Pomphrey, and J.~Delucia.
+\newblock {Dynamic modeling of transport and positional control of tokamaks}.
+\newblock {\em Journal of Computational Physics}, 66(2):481--507, 1986.
+
+\bibitem{Kasilov2014}
+S.~V. Kasilov, W.~Kernbichler, A.~F. Martitsch, H.~Maassberg, and M.~F. Heyn.
+\newblock {Evaluation of the toroidal torque driven by external non-resonant
+  non-axisymmetric magnetic field perturbations in a tokamak}.
+\newblock {\em Physics of Plasmas}, 21(9), 2014.
+
+\bibitem{Landreman2014}
+M.~Landreman, H.~M. Smith, A.~Moll{\'{e}}n, and P.~Helander.
+\newblock {Comparison of particle trajectories and collision operators for
+  collisional transport in nonaxisymmetric plasmas}.
+\newblock {\em Physics of Plasmas}, 21(4), 2014.
+
+\bibitem{Liu2004}
+Y.~Liu, A.~Bondeson, Y.~Gribov, and A.~Polevoi.
+\newblock Stabilization of resistive wall modes in iter by active feedback and
+  toroidal rotation.
+\newblock {\em Nuclear Fusion}, 44(2):232, 2004.
+
+\bibitem{Martitsch2016}
+A.~F. Martitsch, S.~V. Kasilov, W.~Kernbichler, G.~Kapper, C.~G. Albert, M.~F.
+  Heyn, H.~M. Smith, E.~Strumberger, S.~Fietz, W.~Suttrop, and M.~Landreman.
+\newblock {Effect of 3D magnetic perturbations on the plasma rotation in ASDEX
+  Upgrade}.
+\newblock {\em Plasma Physics and Controlled Fusion}, 58(7):074007, 2016.
+
+\bibitem{Poli2014}
+F.~Poli, C.~Kessel, P.~Bonoli, D.~Batchelor, R.~Harvey, and P.~Snyder.
+\newblock {External heating and current drive source requirements towards
+  steady-state operation in ITER}.
+\newblock {\em Nuclear Fusion}, 54(7):073007, jul 2014.
+
+\bibitem{Schaffer2011}
+M.~Schaffer, J.~Snipes, P.~Gohil, P.~de~Vries, T.~Evans, M.~Fenstermacher,
+  X.~Gao, A.~Garofalo, D.~Gates, C.~Greenfield, W.~Heidbrink, G.~Kramer, R.~{La
+  Haye}, S.~Liu, A.~Loarte, M.~Nave, T.~Osborne, N.~Oyama, J.-K. Park,
+  N.~Ramasubramanian, H.~Reimerdes, G.~Saibene, A.~Salmi, K.~Shinohara,
+  D.~Spong, W.~Solomon, T.~Tala, Y.~Zhu, J.~Boedo, V.~Chuyanov, E.~Doyle,
+  M.~Jakubowski, H.~Jhang, R.~Nazikian, V.~Pustovitov, O.~Schmitz,
+  R.~Srinivasan, T.~Taylor, M.~Wade, K.-I. You, and L.~Zeng.
+\newblock {ITER test blanket module error field simulation experiments at
+  DIII-D}.
+\newblock {\em Nuclear Fusion}, 51(10):103028, 2011.
+
+\bibitem{Shaing2010}
+K.~Shaing, S.~Sabbagh, and M.~Chu.
+\newblock {An approximate analytic expression for neoclassical toroidal plasma
+  viscosity in tokamaks}.
+\newblock {\em Nuclear Fusion}, 50(2):025022, feb 2010.
+
+\bibitem{Shaing2003}
+K.~C. Shaing.
+\newblock {Magnetohydrodynamic-activity-induced toroidal momentum dissipation
+  in collisionless regimes in tokamaks}.
+\newblock {\em Physics of Plasmas}, 10(5 I):1443--1448, 2003.
+
+\bibitem{Shaing2008}
+K.~C. Shaing, P.~Cahyna, M.~Becoulet, J.~K. Park, S.~A. Sabbagh, and M.~S. Chu.
+\newblock {Collisional boundary layer analysis for neoclassical toroidal plasma
+  viscosity in tokamaks}.
+\newblock {\em Physics of Plasmas}, 15(8), 2008.
+
+\bibitem{Shinohara2009}
+K.~Shinohara, T.~Oikawa, H.~Urano, N.~Oyama, J.~Lonnroth, G.~Saibene,
+  V.~Parail, and Y.~Kamada.
+\newblock {Effects of ferromagnetic components on energetic ion confinement in
+  ITER}.
+\newblock {\em Fusion Engineering and Design}, 84(1):24--32, 2009.
+
+\bibitem{Snyder2011}
+P.~Snyder, R.~Groebner, J.~Hughes, T.~Osborne, M.~Beurskens, a.W. Leonard,
+  H.~Wilson, and X.~Xu.
+\newblock {A first-principles predictive model of the pedestal height and
+  width: development, testing and ITER optimization with the EPED model}.
+\newblock {\em Nuclear Fusion}, 51(10):103016, 2011.
+
+\bibitem{Tobita2003}
+K.~Tobita, T.~Nakayama, S.~V. Konovalov, and M.~Sato.
+\newblock {Reduction of energetic particle loss by ferritic steel inserts in
+  ITER}.
+\newblock {\em Plasma Physics and Controlled Fusion}, 45(2):133--143, 2003.
+
+\end{thebibliography}
