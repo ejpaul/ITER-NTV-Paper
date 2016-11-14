@@ -6,6 +6,18 @@ M.~Barnes, F.~I. Parra, J.~P. Lee, E.~A. Belli, M.~F.~F. Nave, and A.~E. White.
   plasmas}.
 \newblock {\em Physical Review Letters}, 111(5):1--5, 2013.
 
+\bibitem{Bondeson1994}
+A.~Bondeson and D.~J. Ward.
+\newblock {Stabilization of external modes in tokamaks by resistive walls and
+  plasma rotation}.
+\newblock {\em Physical Review Letters}, 72(17):2709--2712, 1994.
+
+\bibitem{Burrell1997}
+K.~H. Burrell.
+\newblock Effects of e x b velocity shear and magnetic shear on turbulence and
+  transport in magnetic confinement devices.
+\newblock {\em Physics of Plasmas}, 4(5):1499--1518, 1997.
+
 \bibitem{Chuyanov2010}
 V.~A. Chuyanov, D.~J. Campbell, and L.~M. Giancarli.
 \newblock {TBM Program implementation in ITER}.
@@ -18,17 +30,32 @@ D.~{\'{C}}iri{\'{c}}, A.~D. Ash, B.~Crowley, I.~E. Day, S.~J. Gee, L.~J.
 \newblock {Performance of upgraded JET neutral beam injectors}.
 \newblock {\em Fusion Engineering and Design}, 86(6-8):509--512, 2011.
 
-\bibitem{Crume1988}
-E.~C. Crume, K.~C. Shaing, S.~P. Hirshman, and W.~I.~V. Rij.
-\newblock {Transport scaling in the collisionless ‐ detrapping regime in
-  stellarators}.
-\newblock 11(1988), 1988.
-
 \bibitem{DeVries2008}
 P.~C. de~Vries, M.-D. Hua, D.~C. McDonald, C.~Giroud, M.~Janvier, M.~F.
   Johnson, T.~J.~J. Tala, K.-D. Zastrow, and {the JET EFDA Contributors}.
 \newblock {Scaling of rotation and momentum confinement in JET plasmas}.
 \newblock {\em Nuclear Fusion}, 48(6):65006, 2008.
+
+\bibitem{Garofalo2008}
+A.~M. Garofalo, K.~H. Burrell, J.~C. Deboo, J.~S. Degrassie, G.~L. Jackson,
+  M.~Lanctot, H.~Reimerdes, M.~J. Schaffer, W.~M. Solomon, and E.~J. Strait.
+\newblock {Observation of plasma rotation driven by static nonaxisymmetric
+  magnetic fields in a tokamak}.
+\newblock {\em Physical Review Letters}, 101(19), nov 2008.
+
+\bibitem{Garofalo2002}
+A.~M. Garofalo, E.~J. Strait, L.~C. Johnson, R.~J. {La Haye}, E.~A. Lazarus,
+  G.~A. Navratil, M.~Okabayashi, J.~T. Scoville, T.~S. Taylor, and A.~D.
+  Turnbull.
+\newblock {Sustained stabilization of the resistive-wall mode by plasma
+  rotation in the DIII-D tokamak}.
+\newblock {\em Physical Review Letters}, 89:235001, 2002.
+
+\bibitem{Hahm1994}
+T.~S. Hahm.
+\newblock {Rotation shear induced fluctuation decorrelation in a toroidal
+  plasma}.
+\newblock {\em Physics of Plasmas}, 1(9):2940, 1994.
 
 \bibitem{Hawryluk1980}
 R.~Hawryluk et~al.
@@ -66,6 +93,13 @@ M.~Landreman, H.~M. Smith, A.~Moll{\'{e}}n, and P.~Helander.
   collisional transport in nonaxisymmetric plasmas}.
 \newblock {\em Physics of Plasmas}, 21(4), 2014.
 
+\bibitem{Lazzaro2002}
+E.~Lazzaro, R.~J. Buttery, T.~C. Hender, P.~Zanca, R.~Fitzpatrick, M.~Bigi,
+  T.~Bolzonella, R.~Coelho, M.~DeBenedetti, S.~Nowak, O.~Sauter, and M.~Stamp.
+\newblock {Error field locked modes thresholds in rotating plasmas, anomalous
+  braking and spin-up}.
+\newblock {\em Physics of Plasmas}, 9(9):3906, 2002.
+
 \bibitem{Liu2004}
 Y.~Liu, A.~Bondeson, Y.~Gribov, and A.~Polevoi.
 \newblock Stabilization of resistive wall modes in iter by active feedback and
@@ -79,11 +113,23 @@ A.~F. Martitsch, S.~V. Kasilov, W.~Kernbichler, G.~Kapper, C.~G. Albert, M.~F.
   Upgrade}.
 \newblock {\em Plasma Physics and Controlled Fusion}, 58(7):074007, 2016.
 
+\bibitem{Parra2012}
+F.~I. Parra, M.~F.~F. Nave, A.~A. Schekochihin, C.~Giroud, J.~S. {De Grassie},
+  J.~H.~F. Severo, P.~{De Vries}, and K.~D. Zastrow.
+\newblock {Scaling of spontaneous rotation with temperature and plasma current
+  in tokamaks}.
+\newblock {\em Physical Review Letters}, 108(9):1--5, 2012.
+
 \bibitem{Poli2014}
 F.~Poli, C.~Kessel, P.~Bonoli, D.~Batchelor, R.~Harvey, and P.~Snyder.
 \newblock {External heating and current drive source requirements towards
   steady-state operation in ITER}.
 \newblock {\em Nuclear Fusion}, 54(7):073007, jul 2014.
+
+\bibitem{Rosenbluth1996}
+M.~N. Rosenbluth and F.~L. Hinton.
+\newblock {Plasma rotation driven by alpha particles in a tokamak reactor}.
+\newblock {\em Nuclear Fusion}, 36(1):55--67, 1996.
 
 \bibitem{Schaffer2011}
 M.~Schaffer, J.~Snipes, P.~Gohil, P.~de~Vries, T.~Evans, M.~Fenstermacher,
@@ -128,6 +174,11 @@ P.~Snyder, R.~Groebner, J.~Hughes, T.~Osborne, M.~Beurskens, a.W. Leonard,
 \newblock {A first-principles predictive model of the pedestal height and
   width: development, testing and ITER optimization with the EPED model}.
 \newblock {\em Nuclear Fusion}, 51(10):103016, 2011.
+
+\bibitem{Terry2000}
+P.~W. Terry.
+\newblock {Suppression of turbulence and transport by sheared flow}.
+\newblock {\em Reviews of Modern Physics}, 72(1):109--165, 2000.
 
 \bibitem{Tobita2003}
 K.~Tobita, T.~Nakayama, S.~V. Konovalov, and M.~Sato.
