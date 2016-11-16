@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 NOV 2016 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 NOV 2016 10:56
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**NTV_paper
+**NTV_paper.tex
 (./NTV_paper.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -722,7 +723,7 @@ LaTeX Warning: No \author given.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<profiles.png, id=104, 586.8324pt x 442.2924pt>
+<profiles.png, id=101, 586.8324pt x 442.2924pt>
 File: profiles.png Graphic file (type png)
  <use profiles.png>
 Package pdftex.def Info: profiles.png used on input line 43.
@@ -773,7 +774,7 @@ Package pdftex.def Info: rotationestimate.png used on input line 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] <Er_flow.png, id=180, 586.8324pt x 442.2924pt>
+<Er_flow.png, id=166, 586.8324pt x 442.2924pt>
 File: Er_flow.png Graphic file (type png)
  <use Er_flow.png>
 Package pdftex.def Info: Er_flow.png used on input line 114.
@@ -782,8 +783,12 @@ Package pdftex.def Info: Er_flow.png used on input line 114.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./rotationestimate.png>]
-<Torque_ErandV.png, id=196, 679.338pt x 528.374pt>
+[5]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <./rotationestimate.png> <./Er_flow.png>]
+<Torque_ErandV.png, id=195, 679.338pt x 528.374pt>
 File: Torque_ErandV.png Graphic file (type png)
  <use Torque_ErandV.png>
 Package pdftex.def Info: Torque_ErandV.png used on input line 142.
@@ -792,8 +797,7 @@ Package pdftex.def Info: Torque_ErandV.png used on input line 142.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./Er_flow.png>]
-<Torque_comparingTBMandFI.png, id=208, 586.8324pt x 442.2924pt>
+<Torque_comparingTBMandFI.png, id=198, 586.8324pt x 442.2924pt>
 File: Torque_comparingTBMandFI.png Graphic file (type png)
 
 <use Torque_comparingTBMandFI.png>
@@ -803,7 +807,7 @@ Package pdftex.def Info: Torque_comparingTBMandFI.png used on input line 150.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Torque_radiusscaling.png, id=210, 586.8324pt x 442.2924pt>
+[7] <Torque_radiusscaling.png, id=210, 586.8324pt x 442.2924pt>
 File: Torque_radiusscaling.png Graphic file (type png)
 
 <use Torque_radiusscaling.png>
@@ -827,7 +831,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 9 contains only floats.
 
 [9 <./Torque_comparingTBMandFI.png> <./Torque_radiusscaling.png>]
-<scalescan.png, id=235, 586.8324pt x 442.2924pt>
+<scalescan.png, id=234, 586.8324pt x 442.2924pt>
 File: scalescan.png Graphic file (type png)
  <use scalescan.png>
 Package pdftex.def Info: scalescan.png used on input line 182.
@@ -866,16 +870,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `NTV_paper.out' has not changed.
 (rerunfilecheck)             Checksum: 35B31F43CC0C29D99CE5CF0E9214D5FA;614.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
  7186 strings out of 493014
  101362 string characters out of 6133351
- 202424 words of memory out of 5000000
+ 203423 words of memory out of 5000000
  10528 multiletter control sequences out of 15000+600000
  21085 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,32p,1513b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,32p,1517b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -895,7 +903,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on NTV_paper.pdf (15 pages, 848561 bytes).
+Output written on NTV_paper.pdf (15 pages, 847596 bytes).
 PDF statistics:
  365 PDF objects out of 1000 (max. 8388607)
  296 compressed objects within 3 object streams
