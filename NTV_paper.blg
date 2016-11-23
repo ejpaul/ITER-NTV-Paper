@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: NTV_paper.aux
 The style file: abbrv.bst
 Database file #1: ITERNTV.bib
-You've used 29 entries,
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            699 strings with 10613 characters,
-and the built_in function-call counts, 13321 in all, are:
-= -- 1180
-> -- 1078
+            732 strings with 11989 characters,
+and the built_in function-call counts, 16227 in all, are:
+= -- 1424
+> -- 1368
 < -- 0
-+ -- 428
-- -- 398
-* -- 1265
-:= -- 2380
-add.period$ -- 87
-call.type$ -- 29
-change.case$ -- 285
++ -- 543
+- -- 508
+* -- 1562
+:= -- 2909
+add.period$ -- 102
+call.type$ -- 34
+change.case$ -- 355
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 315
-empty$ -- 721
-format.name$ -- 398
-if$ -- 2524
+cite$ -- 34
+duplicate$ -- 369
+empty$ -- 840
+format.name$ -- 508
+if$ -- 3056
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 29
-newline$ -- 148
-num.names$ -- 58
-pop$ -- 227
+int.to.str$ -- 34
+missing$ -- 34
+newline$ -- 173
+num.names$ -- 68
+pop$ -- 287
 preamble$ -- 1
-purify$ -- 256
+purify$ -- 321
 quote$ -- 0
-skip$ -- 210
+skip$ -- 246
 stack$ -- 0
-substring$ -- 652
-swap$ -- 29
+substring$ -- 755
+swap$ -- 34
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 136
 warning$ -- 0
-while$ -- 97
-width$ -- 31
-write$ -- 321
+while$ -- 114
+width$ -- 36
+write$ -- 376

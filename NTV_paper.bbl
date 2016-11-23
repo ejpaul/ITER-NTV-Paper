@@ -36,6 +36,11 @@ P.~C. de~Vries, M.-D. Hua, D.~C. McDonald, C.~Giroud, M.~Janvier, M.~F.
 \newblock {Scaling of rotation and momentum confinement in JET plasmas}.
 \newblock {\em Nuclear Fusion}, 48(6):65006, 2008.
 
+\bibitem{DeGrassie2007}
+J.~S. DeGrassie, J.~E. Rice, K.~H. Burrell, R.~J. Groebner, and W.~M. Solomon.
+\newblock {Intrinsic rotation in DIII-D}.
+\newblock {\em Physics of Plasmas}, 14(5), 2007.
+
 \bibitem{Garofalo2008}
 A.~M. Garofalo, K.~H. Burrell, J.~C. Deboo, J.~S. Degrassie, G.~L. Jackson,
   M.~Lanctot, H.~Reimerdes, M.~J. Schaffer, W.~M. Solomon, and E.~J. Strait.
@@ -76,6 +81,11 @@ S.~Hirshman, W.~van RIJ, and P.~Merkel.
   Green's function method}.
 \newblock {\em Computer Physics Communications}, 43(1):143--155, 1986.
 
+\bibitem{Jardin1993}
+S.~C. Jardin, M.~G. Bell, and N.~Pomphrey.
+\newblock {TSC simulation of Ohmic discharges in TFTR}.
+\newblock {\em Nuclear Fusion}, 33(3):371, 1993.
+
 \bibitem{Jardin1986}
 S.~C. Jardin, N.~Pomphrey, and J.~Delucia.
 \newblock {Dynamic modeling of transport and positional control of tokamaks}.
@@ -113,6 +123,14 @@ A.~F. Martitsch, S.~V. Kasilov, W.~Kernbichler, G.~Kapper, C.~G. Albert, M.~F.
   Upgrade}.
 \newblock {\em Plasma Physics and Controlled Fusion}, 58(7):074007, 2016.
 
+\bibitem{Noterdaeme2003}
+J.~M. Noterdaeme, E.~Righi, V.~Chan, J.~DeGrassie, K.~Kirov, M.~Mantsinen,
+  M.~F.~F. Nave, D.~Testa, K.~D. Zastrow, R.~Budny, R.~Cesario, A.~Gondhalekar,
+  N.~Hawkes, T.~Hellsten, P.~Lamalle, F.~Meo, F.~Nguyen, and E.-J.-E.
+  Contributors.
+\newblock {Spatially resolved toroidal plasma rotation with ICRF on JET}.
+\newblock {\em Nuclear Fusion}, 43:274--289, 2003.
+
 \bibitem{Parra2012}
 F.~I. Parra, M.~F.~F. Nave, A.~A. Schekochihin, C.~Giroud, J.~S. {De Grassie},
   J.~H.~F. Severo, P.~{De Vries}, and K.~D. Zastrow.
@@ -125,6 +143,15 @@ F.~Poli, C.~Kessel, P.~Bonoli, D.~Batchelor, R.~Harvey, and P.~Snyder.
 \newblock {External heating and current drive source requirements towards
   steady-state operation in ITER}.
 \newblock {\em Nuclear Fusion}, 54(7):073007, jul 2014.
+
+\bibitem{Rice2007}
+J.~Rice, A.~Ince-Cushman, J.~DeGrassie, L.-G. Eriksson, Y.~Sakamoto,
+  A.~Scarabosio, A.~Bortolon, K.~Burrell, B.~Duval, C.~Fenzi-Bonizec,
+  M.~Greenwald, R.~Groebner, G.~Hoang, Y.~Koide, E.~Marmar, A.~Pochelon, and
+  Y.~Podpaly.
+\newblock {Inter-machine comparison of intrinsic toroidal rotation in
+  tokamaks}.
+\newblock {\em Nuclear Fusion}, 47(11):1618--1624, nov 2007.
 
 \bibitem{Rosenbluth1996}
 M.~N. Rosenbluth and F.~L. Hinton.
@@ -185,5 +212,13 @@ K.~Tobita, T.~Nakayama, S.~V. Konovalov, and M.~Sato.
 \newblock {Reduction of energetic particle loss by ferritic steel inserts in
   ITER}.
 \newblock {\em Plasma Physics and Controlled Fusion}, 45(2):133--143, 2003.
+
+\bibitem{Zhu2006}
+W.~Zhu, S.~A. Sabbagh, R.~E. Bell, J.~M. Bialek, M.~G. Bell, B.~P. Leblanc,
+  S.~M. Kaye, F.~M. Levinton, J.~E. Menard, K.~C. Shaing, A.~C. Sontag, and
+  H.~Yuh.
+\newblock {Observation of plasma toroidal-momentum dissipation by neoclassical
+  toroidal viscosity}.
+\newblock {\em Physical Review Letters}, 96(22):1--4, 2006.
 
 \end{thebibliography}
