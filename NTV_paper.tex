@@ -10,8 +10,14 @@
 \usepackage{bm}
 \usepackage[margin=1in]{geometry}
 
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\numberwithin{figure}{section}
+\numberwithin{equation}{section}
+
 \newcommand{\partder}[2]{\dfrac{\partial  #1}{\partial  #2}} % partial der.
 \newcommand{\der}[2]{\dfrac{d #1}{d  #2}}
+
 
 \title{Rotation and Neoclassical Ripple Transport in ITER}
 \begin{document}
@@ -97,7 +103,8 @@ where $\tau^{NBI}$ is the total beam torque density calculated by NUBEAM includi
 For the second estimate of toroidal rotation a semi-analytic intrinsic rotation model is used \cite{Hillesheim2015}:
 \begin{gather}
 V_{\zeta}(r) = - \langle R \rangle \int_{r}^a \frac{v_{ti} \rho_{*,\theta}} {2 P_r L_T^2} \widetilde{\Pi} (\nu_*) \, d r',
-\end{gather} \label{eq:Hillesheim}
+\label{eq:Hillesheim}
+\end{gather} 
 where $v_{ti}$ is the ion thermal velocity, $\rho_{*,\theta} = v_{ti} m_i/(e B_{\theta} \langle R \rangle) $, the Prandtl number $P_r = \chi_{\zeta}/\chi_i$ is taken to be 0.7, $\nu_* = q R v_{ti}/(\nu_{ii} \epsilon^{3/2})$ is the normalized collision frequency, and $L_T = - \left( \partial \ln T/ \partial r \right)^{-1}$ is the temperature gradient scale length. Equation \ref{eq:Hillesheim} is obtained from assuming that $\Pi_{int}$ balances turbulent momentum diffusion in steady state, $\Pi_{int} = m_i n_i \chi_{\zeta} \langle R \rangle \partial V_{\zeta}/\partial r$. This model considers the intrinsic torque driven by the neoclassical diamagnetic flows, such that $V_{\zeta} \sim \rho_{*,\theta} v_{ti}$ and $(V_{\zeta}/\langle R \rangle) \Pi_{int}/Q \sim \rho_{*, \theta}$. It is also assumed that $V_{\zeta} = 0$ at the wall. %Provide justification for these assumptions?? 
 $\widetilde{\Pi} (\nu_*)$ is an order unity function which characterizes the collisionality dependence of rotation reversals, determined from gyrokinetic turbulence simulations \cite{Barnes2013}. Because of the ITER's low collisionality, we do not expect a rotation reversal, which is correlated with transitioning between the banana and plateau regimes. Equation \ref{eq:Hillesheim} was integrated using profiles for the ITER steady state scenario. 
 
@@ -126,7 +133,8 @@ which we calculate with the Stellarator Fokker-Planck Iterative Neoclassical Con
 SFINCS is used to solve a radially-local drift kinetic equation for the gyro-averaged distribution function, $f_{a1}$, on a single flux surface including coupling between species. 
 \begin{gather}
 ( v_{||} \bm{b} + \bm{v}_E + \bm{v}_{ma}) \cdot (\nabla f_{a1})  - C(f_{a1}) = - \bm{v}_{ma} \cdot \nabla \psi \left( \partder{f_{a0}}{\psi} \right) + \frac{Z_a e v_{||} B \langle E_{||} B \rangle}{T_a \langle B^2 \rangle } f_{a0}.
-\end{gather} \label{kineticequation}
+\label{kineticequation}
+\end{gather} 
 \hspace{-1mm}
 Here $a$ indicates species, $f_{a0}$ is an equilibrium Maxwellian, $ \langle ... \rangle$ denotes a flux surface average, $\psi = \Phi_T/2\pi$, and $C$ is a linearized Fokker-Planck collision operator. The $\bm{E} \times \bm{B}$ drift is 
 \begin{gather}
@@ -135,7 +143,8 @@ Here $a$ indicates species, $f_{a0}$ is an equilibrium Maxwellian, $ \langle ...
 and the radial magnetic drift is
 \begin{gather}
 \bm{v}_{ma} \cdot \nabla \psi = \frac{m_a }{2Z_a e B^2} \left(v_{||}^2 + \frac{v_{\perp}^2}{2} \right) \bm{b} \times \nabla B \cdot \nabla \psi,
-\end{gather} \label{magneticdrift}
+\label{magneticdrift}
+\end{gather} 
 where $v_{||}$ and $v_{\perp}$ are the components of the velocity coordinate parallel and perpendicular to $\bm{B}$, respectively. Transport quantities have been calculated using the steady state scenario ion and electron profiles and VMEC geometry. The $E_{||}$ term is negligible for this non-inductive scenario with loop voltage $ \approx 10^{-4}$ V. For the calculations presented in this section and in section \ref{heatflux} the $\bm{v}_{ma} \cdot \nabla f_{a1}$ term is dropped. The effect of keeping this term is shown to be small in section \ref{mds}.
 
 The relationship between $E_r$ and $V_{||}$ for electrons and ions at $r/a = 0.9$ is shown in figure \ref{fig:Er_flow}. Note that only one curve is shown for each species as the addition of ripple fields did not change the dependence of $V_{||}$ on $E_r$ significantly ($\leq 5 \%$). While radial transport of heat and particles changes significantly in the presence of small ripple fields, the parallel flow is much less sensitive to the perturbing field. Only the component of $f$ that is odd in $v_{||}$ will contribute to $V_{||}$, while only the component even in $v_{||}$ will contribute to $\Gamma_{\psi}$. It can be shown (see appendix \ref{parallelflow}) that the component of $f_1$ that contributes to $V_{||}$ is of higher order in $\nu_* = \nu_{ii} Rq/(\epsilon^{3/2} v_{ti}) \ll 1 $, where $\epsilon$ is the inverse aspect ration, than the component that contributes to $\Gamma_{\psi}$. 
@@ -163,7 +172,7 @@ The NTV torque due to TF ripple only is higher in magnitude than the total beam 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{Torque_ErandV.png}
-\caption{\label{fig:Torque_ErandV} SFINCS calculation of NTV torque density as a function of $E_r$ and $V_{||}$ at $r/a = 0.9$ is shown for 3 VMEC geometries: (i) axisymmettic (blue dashed), (ii) with TF ripple only (orange dash-dot), and (iii) TF ripple with FIs and TBMs (green solid). The vertical dashed line indicates the estimate of $E_r$ and $V_{||}$ based on the intrinsic rotation model. The circle denotes the offset rotation at $V_{||} \sim -10$ km/s. The magnitude of $\tau^{NTV}$ at this radius is comparable or greater to the NBI and turbulent torques but is opposite in direction (see figure \ref{fig:alltorque}). }
+\caption{\label{fig:Torque_ErandV} SFINCS calculation of NTV torque density as a function of $E_r$ and $V_{||}$ at $r/a = 0.9$ is shown for 3 VMEC geometries: (i) axisymmettic (blue dashed), (ii) with TF ripple only (orange dash-dot), and (iii) TF ripple with FIs and TBMs (green solid). The vertical dashed line indicates the estimate of $E_r$ and $V_{||}$ based on the intrinsic rotation model. The circle denotes the offset rotation at $V_{||} \sim -10$ km/s. The magnitude of $\tau^{NTV}$ at this radius is comparable or greater to the NBI and turbulent torques but is opposite in direction (see figure \ref{fig:alltorque}).}
 \end{figure}
 
 In order to decouple the influence of the FI ripple and the TBM ripple, the torque density is calculated at $r/a = 0.9$ for geometries including (i) TF ripple with FIs and TBMs, (ii) TF ripple with FIs, and (iii) only TBMs, shown in figure \ref{fig:Torque_comparingTBMandFI}. The ripple due to the TBMs drives much less $\tau^{NTV}$ than the TF ripple with ferritic inserts does.  While the FIs decrease the magnitude of the $n = 18$ component of $B$, the TBM contributes to low mode numbers (mostly $n = 1$). In the $\sqrt{\nu}$ regime ion transport scales as $\Gamma_{\psi} \sim \sqrt{n}$ and in the $1/\nu$ regime $\Gamma_{\psi} \sim n^2$ \cite{Shaing2010}, so it is reasonable to expect that the higher harmonic ripple of the FIs would drive a larger $\tau^{NTV}$. Moreover, when transport is dominated by the $\bm{E} \times \bm{B}$ precession frequency ($\nu_{\text{eff}}/\omega_E \ll 1$), if the poloidal extent of the ripple $\Delta \theta$ is decreased, the characteristic time scale for detrapping $\Delta t \sim \Delta \theta/ \omega_E$ will decrease. If diffusion scales as $D \sim f_t \Delta x^2/\Delta t$, reducing the poloidal extent of ripple will decrease transport. 
@@ -183,15 +192,15 @@ In figure \ref{fig:Torque_radiusscaling}, the SFINCS calculation of $\tau^{NTV}$
 \caption{\label{fig:Torque_radiusscaling} SFINCS calculation of NTV torque density ($\tau^{NTV}$) as a function of ion $V_{||}$ for VMEC geometry with TF ripple only at $r/a$ = 0.5 (blue solid), 0.7 (red dashed), and 0.9 (green dash-dot). Although the field ripple decreases with radius ($\delta_B = 0.82\%$ at $r/a = 0.9$, $\delta_B = 0.51\%$ at $r/a = 0.7$, $\delta_B = 0.26\%$ at $r/a = 0.5$), transport in the $1/\nu$ `valley' increases with decreasing radius because of strong scaling of neoclassical transport with temperature. }
 \end{figure}
 
-In figure \ref{fig:alltorque}, we compare the magnitude of $\tau^{NTV}$ with $\tau^{NBI}$ and the turbulent momentum source causing intrinsic rotation, $\tau^{int} = -\nabla \cdot \Pi_{int}$. For the $\tau^{NTV}$ profile, the intrinsic rotation model is used for determining $E_r$ at each radius. $\tau^{NBI}$ is determined from NUBEAM calculations \cite{Poli2014}. $\tau^{int}$ is estimated using $\Pi_{int} \sim \rho_{\theta}/L_T \widetilde{\Pi}(\nu_*) Q \langle R \rangle/v_{ti} \sim \frac{m}{eB_{\theta}r} \widetilde{\Pi}(\nu_*) Q \langle R \rangle$ and $\tau^{int} \sim -\Pi_{int}/r$. $Q$ is obtained from the fusion product source profile computed by TRANSP. Note that in the pedestal, this model of turbulent torque is large as $\tau^{turb} \sim 1/L_T$. 
+In figure \ref{fig:alltorque}, we compare the magnitude of $\tau^{NTV}$ with $\tau^{NBI}$ and the turbulent momentum source causing intrinsic rotation, $\tau^{int} = -\nabla \cdot \Pi_{int}$. For the $\tau^{NTV}$ profile, the intrinsic rotation model is used for determining $E_r$ at each radius. $\tau^{NBI}$ is determined from NUBEAM calculations \cite{Poli2014}. $\tau^{int}$ is estimated using $\Pi_{int} \sim \rho_{\theta}/L_T \widetilde{\Pi}(\nu_*) Q \langle R \rangle/v_{ti} \sim \frac{m}{eB_{\theta}r} \widetilde{\Pi}(\nu_*) Q \langle R \rangle$ and $\tau^{int} \sim -\Pi_{int}/r$. $Q$ is calculated using fusion rate profiles heating power profiles (see appendix \ref{turbQ}). Note that in the pedestal, this model of turbulent torque is large as $\tau^{turb} \sim 1/L_T$. 
 
 Near the edge ($0.5 \lesssim r/a \lesssim 0.9$), NTV torque may dominate the rotation profile and will likely significantly damp rotation, decreasing MHD stability. However, the resulting rotation profile may be sheared because of the significant counter-current source at the edge and co-current NBI source in the core. This may provide a rotation shear as high as $\Delta V_{\zeta}/ \Delta r \approx 0.8 (v_{ti}/R)$ and may large enough to suppress micorturbulence and decease turbulent transport \cite{Hahm1994}. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{AllTorquePlot.png}
-\caption{Torque density profiles of NTV torque density ($\tau^{NTV}$) calculated with SFINCS, NBI torque density calculated from NUBEAM ($\tau^{NBI}$), and estimate of turbulent intrinsic rotation momentum source ($\tau^{turb}$). $\tau^{NTV}$ is calculated using SFINCS at $E_r$ determined by intrinsic rotation model described in section \ref{rotation}. Turbulent torque is estimated using $\tau^{turb} \sim -\Pi_{int}/a$ where $\Pi_{int} \sim \rho_{*, \theta} \widetilde{\Pi}(\nu_*) Q \langle R \rangle/v_{ti}$.}
-\end{figure}\label{fig:alltorque}
+\caption{\label{fig:alltorque} Torque density profiles of NTV torque density ($\tau^{NTV}$) calculated with SFINCS, NBI torque density calculated from NUBEAM ($\tau^{NBI}$), and estimate of turbulent intrinsic rotation momentum source ($\tau^{turb}$). $\tau^{NTV}$ is calculated using SFINCS at $E_r$ determined by intrinsic rotation model described in section \ref{rotation}. Turbulent torque is estimated using $\tau^{turb} \sim -\Pi_{int}/a$ where $\Pi_{int} \sim \rho_{*, \theta} \widetilde{\Pi}(\nu_*) Q \langle R \rangle/v_{ti}$.}
+\end{figure}
 
 \FloatBarrier
 
@@ -214,13 +223,13 @@ As $\delta_B$ nears the boundary between the $\sqrt{\nu}$ and $\nu$ regimes in f
 \section{Heat Flux Calculation}\label{heatflux}
 The breaking of toroidal symmetry drives an additional neoclassical heat flux as well as driving non-ambipolar particle fluxes. In figure \ref{fig:HeatFlux}, the SFINCS calculation of heat flux is shown for three magnetic geometries: (i) axisymmetric (blue solid), (ii) with TF ripple only (green dashed), and (iii) TF ripple with TBMs and FIs (red dash-dot). In the presence of TF ripple, the ripple drives an additional heat flux that is comparable to the axisymmetric heat flux. However, with the addition of the FIs the heat flux is reduced to the magnitude of the axisymmetric value, except near $E_r = 0$ where $1/\nu$ transport dominates. 
 
-While the radial ripple-drive particle fluxes will significantly alter the ITER angular momentum transport, the neoclassical heat fluxes are insignificant in comparison to the turbulent heat flux. Note that at this radius the anomalous heat transport, estimated from the fusion product source profile calculated by TRANSP, amount to $\approx 0.3$ MW/m$^2$, If ITER ripple were scaled up to $\delta_B \gtrsim 30\%$, the neoclassical ripple heat transport would be comparable to the anomalous transport.
+While the radial ripple-drive particle fluxes will significantly alter the ITER angular momentum transport, the neoclassical heat fluxes are insignificant in comparison to the turbulent heat flux. Note that the neoclassical heat flux is $\lesssim 5\%$  of the heat flux calculated from TRANSP heating and fusion rate profiles (see appendix \ref{turbHeatFlux}), $\approx 0.2$ MW/m$^2$, thus we can attribute $\gtrsim 95\%$ of the heat transport to turbulence. If ITER ripple were scaled up to $\delta_B \gtrsim 30\%$, the neoclassical ripple heat transport would be comparable to the anomalous transport.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]
 {HeatFlux.png}
-\caption{\label{fig:HeatFlux} SFINCS calculation of neoclassical heat flux at $r/a = 0.9$ for three magnetic geometries: (i) axisymmetric (blue solid), (ii) with TF ripple only (green dashed), and (iii) TF ripple with TBMs and FIs (red dash-dot). The vertical dashed line corresponds to the intrinsic rotation $E_r$ at this radius. These heat fluxes are much smaller than the anomalous heat transport is likely to be, $\approx 0.3$ MW/m$^2$,}
+\caption{\label{fig:HeatFlux} SFINCS calculation of neoclassical heat flux at $r/a = 0.9$ for three magnetic geometries: (i) axisymmetric (blue solid), (ii) with TF ripple only (green dashed), and (iii) TF ripple with TBMs and FIs (red dash-dot). The vertical dashed line corresponds to the intrinsic rotation $E_r$ at this radius. These heat fluxes are much smaller than the anomalous heat transport is likely to be, $\approx 0.2$ MW/m$^2$,}
 \end{figure}
 
 \FloatBarrier
@@ -228,21 +237,23 @@ While the radial ripple-drive particle fluxes will significantly alter the ITER 
 \section{Radially Local Approximation of Magnetic Drifts}\label{mds}
 Although $(\bm{v}_E + \bm{v}_m) \cdot \nabla f_1$ is formally of lower order than the other terms in eq. \ref{kineticequation}, it has been found to be important when $\rho_* \sim \nu_*$ and has been included in other calculations of 3D neoclassical transport. In the SFINCS calculations shown above the $\bm{v}_m \cdot \nabla f_1$ term has not been included. As SFINCS does not maintain radial coupling of $f_1$, there are several radially-local models of toroidal and poloidal $\bm{v}_m$ that can be applied.  The Kasilov form (eq. 67 in \cite{Kasilov2014}) ignores the toroidally varying components of $\bm{B}$ and the radial variation of $q$. The Martitsch form (eq. 16 in \cite{Martitsch2016}) is the same as the Kasilov form but maintains magnetic shear dependence. This non-local effect has been shown to be important in some NTV transport regimes \cite{Martitsch2016}. The Sugama form is obtained by subtracting off the radial component of $\bm{v}_m$ and multiplying by a factor which ensures that $\bm{v}_m (\mu = 0)  = 0$ in order to remove sources/sinks in velocity space. Each of these magnetic drift schemes are independent of the choice of Boozer angle. 
 
-An $E_r$ scan at $r/a = 0.9$ is shown in figure \ref{driftschemes}. When $\bm{v}_m \cdot \nabla f_1$ is added to the kinetic equation, the $1/\nu$ valley is shifted toward a slightly negative $E_r$, corresponding to the region where $\bm{v}_E + \bm{v}_M = 0$. However, the addition of $v_m \cdot \nabla f_1$ has a negligible effect on transport overall, and choice of magnetic drift scheme would not dramatically change the results in previous sections.  
+An $E_r$ scan at $r/a = 0.9$ is shown in figure \ref{fig:driftschemes}. When $\bm{v}_m \cdot \nabla f_1$ is added to the kinetic equation, the $1/\nu$ valley is shifted toward a slightly negative $E_r$, corresponding to the region where $\bm{v}_E + \bm{v}_M = 0$. However, the addition of $v_m \cdot \nabla f_1$ has a negligible effect on transport overall, and choice of magnetic drift scheme would not dramatically change the results in previous sections.  
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{mdscomparison.png}
-\caption{Comparison of magnetic drift models at $r/a = 0.9$. NTV torque density is calculated for the ITER steady state scenario as a function of $E_r$. The addition of $\bm{v}_m \cdot \nabla f_1$ in the kinetic equation solved by SFINCS has little effect on the neoclassical transport at this radius. }
-\end{figure}\label{driftschemes}
+\caption{\label{fig:driftschemes} Comparison of magnetic drift models at $r/a = 0.9$. NTV torque density is calculated for the ITER steady state scenario as a function of $E_r$. The addition of $\bm{v}_m \cdot \nabla f_1$ in the kinetic equation solved by SFINCS has little effect on the neoclassical transport at this radius. }
+\end{figure}
 
 \FloatBarrier
 
 \section{Summary}\label{summary}
 
-We calculate neoclassical transport in the presence of 3D magnetic fields, including toroidal field ripple and ferromagnetic components, for an ITER steady state scenario. We use an intrinsic turbulent rotation model described in section \ref{rotation} to estimate $E_r$ for neoclassical calculations. We find that even without $\tau^{NTV}$, toroidal rotation will be $\lesssim 2\% M_A$, which is likely not large enough to suppress resistive wall modes \cite{Liu2004}. We use VMEC free boundary equilibria in the presence of ripple fields to calculate neoclassical particle and heat fluxes using the drift-kinetic solver, SFINCS. At large radii $r/a \gtrsim 0.7$, $\tau^{NTV}$ is comparable to $\tau^{NBI}_{\zeta}$ in magnitude but opposite in sign, which may result in flow damping at the edge and a decrease in MHD stability. However, the torque profile may also produce a significant rotation shear which could suppress turbulent transport. While the addition of FIs significantly reduces the transport ($\approx 80\%$ reduction at $r/a = 0.9$), the TBMs themselves produce very little NTV torque. Further analysis is needed to quantify how the addition of $\tau^{NTV}$ will change the rotation profile in ITER. 
+We calculate neoclassical transport in the presence of 3D magnetic fields, including toroidal field ripple and ferromagnetic components, for an ITER steady state scenario. We use an intrinsic turbulent rotation model described in section \ref{rotation} to estimate $E_r$ for neoclassical calculations. We find that even without $\tau^{NTV}$, toroidal rotation will be $\lesssim 2\% \,M_A$, which is likely not large enough to suppress resistive wall modes \cite{Liu2004}. We use VMEC free boundary equilibria in the presence of ripple fields to calculate neoclassical particle and heat fluxes using the drift-kinetic solver, SFINCS. At large radii $r/a \gtrsim 0.7$, $\tau^{NTV}$ is comparable to $\tau^{NBI}$ in magnitude but opposite in sign, which may result in flow damping at the edge and a decrease in MHD stability. However, the torque profile may also produce a significant rotation shear which could suppress turbulent transport. While the addition of FIs significantly reduces the transport ($\approx 80\%$ reduction at $r/a = 0.9$), the TBMs themselves produce very little NTV torque. Further analysis is needed to quantify how the addition of $\tau^{NTV}$ will change the rotation profile in ITER. 
 
-\section{Appendix A} \label{parallelflow}
+\appendix
+
+\section{Parallel Flow is Less Sensitive to Perturbing Field} \label{parallelflow}
 In this appendix we will show that the contribution to $V_{||}$ from $f_1$ is much smaller than the contribution to $\Gamma_{\psi}$. As $V_{||}$ is an odd moment of $v_{||}$,
 \begin{gather}
 V_{||} = \left(\frac{1}{n_s}\right) \int d^3 v \, v_{||} f,
@@ -263,15 +274,18 @@ v_{||} \bm{b} \cdot \nabla f_1 + \bm{v}_d \cdot \nabla \psi \partder{f_0}{\psi} 
 we perform a secondary expansion of $f_1 = f_1^0 + f_1^1 + ...$ in $\nu_* = \nu_{ii} Rq/(\epsilon^{3/2} v_{ti}) \ll 1$. To lowest order we have
 \begin{gather}
 v_{||} \bm{b} \cdot \nabla f_1^0 = 0.
-\end{gather}\label{firstorder}
+\label{firstorder}
+\end{gather}
 To next order we have
 \begin{gather}
 v_{||} \bm{b} \cdot \nabla f_1^1 + \bm{v}_d \cdot \nabla \psi \partder{f_0}{\psi} = C(f_1^0).
-\end{gather}\label{secondorder}
+\label{secondorder}
+\end{gather}
 Bounce averaging eq. \ref{secondorder} for banana trapped particles, we obtain
 \begin{gather}
 \langle \bm{v}_d \cdot \nabla \psi \rangle_b \partder{f_0}{\psi} = \langle C(f_1^0) \rangle_b,
-\end{gather}\label{bounceaverage}
+\label{bounceaverage}
+\end{gather}
 where 
 \begin{gather}
 \langle ... \rangle_b = \int_{\theta_-}^{\theta_+} \frac{d \theta B}{B^{\theta}} (...)
@@ -285,9 +299,29 @@ As the left hand side of equation \ref{bounceaverage} has terms proportional to 
 f_{1}^1 = \int \frac{d \theta B}{B^{\theta} v_{||}} \left[C(f_1^0) - \bm{v}_d \cdot \nabla \psi \partder{f_0}{\psi} \right],
 \end{gather}
 as the bounce average of the first term in the integrand is even in $v_{||}$ and the second term is even in $v_{||}$.
-For $\nu_* \ll 1$, the departure of $f_1^0$ from its bounce average will be small, so departure of $V_{||}$ from the axisymmetric value will occur at order $\nu_*$ higher than the departure of $\Gamma_{\psi}$ from its axisymmetric value. 
+For $\nu_* \ll 1$, the departure of $f_1^0$ from its bounce average will be small, so departure of $V_{||}$ from the axisymmetric value will occur at order $\nu_*$ higher than the departure of $\Gamma_{\psi}$ from its axisymmetric value.
 
-\section{Acknowledgements}
+\section{Approximate Turbulent Heat Flux Calculation}\label{turbQ}
+
+As $\Pi_{int}$ is proportional to $Q$ with the given model, we must estimate $Q$ using the input heating power and D-T fusion rates calculated with TRANSP and TSC. The LH, NBI, and ECH power densities ($P_{LH}$, $P_{NBI}$, and $P_{ECH}$) are integrated along with the fusion reaction rate density ($R_{DT}$) to calculate the total integrated heating source ($H(r)$),
+\begin{gather}
+\int_0^r dV \, H(r) = \int_0^r dV \left(\, P_{LH} + P_{NBI} + P_{ECH} + R_{DT} (3.5 \text{MeV}) \right).
+\end{gather}
+As $\int Q \cdot dS = \int H dV$, 
+\begin{gather}
+Q(r) = \frac{\int_0^r dV \left(\, P_{LH} + P_{NBI} + P_{ECH} + R_{DT} (3.5 \text{MeV}) \right)}{A(r)},
+\end{gather}
+where $A(r)$ is the surface area of a flux surface. We have shown in section \ref{heatflux} that the neoclassical heat flux is insignificant in comparison to $Q(r)$, so we can attribute $Q(r)$ to turbulent heat transport. The calculated $Q$ is shown in figure \ref{fig:turbHeatFlux}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{turbHeatFlux.png}
+\caption{\label{fig:turbHeatFlux} Heat flux $Q$ calculated with input heating and fusion rate profiles from TRANSP, TSC, and GENRAY+CQL3D.}
+\end{figure}
+
+\FloatBarrier
+
+\section*{Acknowledgements}
 The authors would like to thank F. Parra, J. Hillesheim, J. Lee, and H. Smith for helpful input and discussions. This work was supported by the US Department of Energy through grants DE-FG02-93ER-54197 and DE-FC02-08ER-54964. The computations presented in this paper have used resources at the National Energy Research Scientific Computing Center (NERSC). 
 
 \bibliographystyle{abbrv}
