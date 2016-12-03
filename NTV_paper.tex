@@ -18,9 +18,9 @@
 \newcommand{\partder}[2]{\dfrac{\partial  #1}{\partial  #2}} % partial der.
 \newcommand{\der}[2]{\dfrac{d #1}{d  #2}}
 
-
-\title{Rotation and Neoclassical Ripple Transport in ITER}
 \begin{document}
+\title{Rotation and Neoclassical Ripple Transport in ITER}
+
 \maketitle
 
 \begin{abstract}
@@ -131,6 +131,7 @@ For stabilization of the resistive wall mode (RWM) in ITER, it has been estimate
 Equipped with a profile of $V_{\zeta}$, neoclassical calculations of $V_{||}$ are made in order to determine the radial electric field. The parallel flow velocity for species $a$ is calculated from moments of the neoclassical distribution function,
 \begin{gather}
 V^a_{||} = \left(\frac{1}{n_a}\right) \int d^3 v \, v_{||} f_a,
+\label{eq:parallelflow}
 \end{gather}
 which we calculate with the Stellarator Fokker-Planck Iterative Neoclassical Conservative Solver (SFINCS) \cite{Landreman2014} code.
 SFINCS is used to solve a radially-local drift kinetic equation for the gyro-averaged distribution function, $f_{a1}$, on a single flux surface including coupling between species. 
@@ -162,13 +163,20 @@ The relationship between $E_r$ and $V_{||}$ for electrons and ions at $r/a = 0.9
 
 \section{Torque Calculation}\label{torque}
 
-The NTV torque density, $\tau^{NTV}$, is calculated from radial particle fluxes, $\Gamma_{\psi}$, using the flux-friction relation,
+The NTV torque density, $\tau^{NTV}$, is calculated from radial particle fluxes, $\Gamma_{\psi}$, 
+\begin{gather}
+\Gamma_{\psi,a} = \left \langle \int d^3v (\bm{v}_{ma} \cdot \nabla \psi) f_a \right \rangle,
+\label{eq:particleflux}
+\end{gather}
+using the flux-friction relation,
 \begin{gather}
 \tau^{NTV} = - B^{\theta} \sum_a n_a q_a \Gamma_{\psi, a},
 \end{gather}
-where $B^{\theta} = \bm{B} \cdot \nabla \theta$ and the summation is performed over species. The calculation of $\tau^{NTV}$ for three geometries at $r/a = 0.9$ is shown in figure \ref{fig:Torque_ErandV}. The axisymmetric geometry does not contribute to NTV torque, as expected. Overall, the magnitude of the torque density with only TF ripple is larger than that with the addition of both the FIs and the TBMs.  In figure \ref{fig:Torque_comparingTBMandFI} we show that the TBMs alone do not provide significant radial current, so the decrease in torque magnitude with both FIs and TBMs can be attributed to the decrease in ripple in the presence of FIs. The dashed vertical line indicates the value of $V_{||}$ and $E_r$ predicted from the intrinsic rotation model. At this radius for the TF only case, $\tau^{NTV} = -0.058$ Nm/m$^3$ while for the case with TBMs and FIs it is -0.012 Nm/m$^3$. The circle indicates the offset rotation at the ambipolar $E_r$. If no other angular momentum source were present in the system, the NTV torque would drive the plasma to rotate at this velocity. Although the $\tau^{NTV}$ varies significantly between the two geometries they predict similar offset rotation velocities: $V_{\zeta}$ = -10 km/s with TF ripple only and -6 km/s with TBMs and FIs. Note that for $E_r$ greater than this ambipolar value, $\tau^{NTV}$ is counter-current while neutral beams and turbulence drive rotation in the co-current direction, so $\tau^{NTV}$ is a damping torque. 
+where $B^{\theta} = \bm{B} \cdot \nabla \theta$ and the summation is performed over species. This expression relates radial particle transport to a toroidal angular momentum source caused by the non-axisymmetric field. This relationship can be derived from action-angle coordinates \cite{Albert2016}, neoclassical moment equations \cite{Shaing1986}, and from the definition of the drift-driven flux \cite{Shaing2006}. 
 
-The NTV torque due to TF ripple only is larger in magnitude than $\tau^{NBI}$ while that with TBMs and FIs is of similar magnitude (see figure \ref{fig:alltorque}). NTV may also compete with the turbulent torque, $\tau^{turb} = - \nabla \cdot \Pi_{int} \approx 0.05$ Nm/m$^3$ at this radius. Therefore, NTV torque may be key in determining the edge rotation in ITER. Note that the magnitude of $\tau^{NTV}$ peaks near $E_r$ where $1/\nu$ transport dominates. 
+The calculation of $\tau^{NTV}$ for three geometries at $r/a = 0.9$ is shown in figure \ref{fig:Torque_ErandV}. The axisymmetric geometry does not contribute to NTV torque, as expected. Overall, the magnitude of the torque density with only TF ripple is larger than that with the addition of both the FIs and the TBMs.  In figure \ref{fig:Torque_comparingTBMandFI} we show that the TBMs alone do not provide significant radial current, so the decrease in torque magnitude with both FIs and TBMs can be attributed to the decrease in ripple in the presence of FIs. The dashed vertical line indicates the value of $V_{||}$ and $E_r$ predicted from the intrinsic rotation model. At this radius for the TF only case, $\tau^{NTV} = -0.058$ Nm/m$^3$ while for the case with TBMs and FIs it is -0.012 Nm/m$^3$. The circle indicates the offset rotation at the ambipolar $E_r$. If no other angular momentum source were present in the system, the NTV torque would drive the plasma to rotate at this velocity. Although the $\tau^{NTV}$ varies significantly between the two geometries they predict similar offset rotation velocities: $V_{\zeta}$ = -10 km/s with TF ripple only and -6 km/s with TBMs and FIs. Note that for $E_r$ greater than this ambipolar value, $\tau^{NTV}$ is counter-current while neutral beams and turbulence drive rotation in the co-current direction, so $\tau^{NTV}$ is a damping torque. 
+
+The NTV torque due to TF ripple only is larger in magnitude than $\tau^{NBI}$ while that with TBMs and FIs is of similar magnitude (see figure \ref{fig:alltorque}). NTV may also compete with the turbulent torque, $\tau^{turb} = - \nabla \cdot \Pi_{int} \approx 0.1$ Nm/m$^3$ at this radius. Therefore, NTV torque may be key in determining the edge rotation in ITER. Note that the magnitude of $\tau^{NTV}$ peaks near $E_r = 0$ where $1/\nu$ transport dominates. While this region is avoided at this radius, $E_r$ may pass through 0 near the edge. 
 
 \FloatBarrier
 
@@ -195,9 +203,9 @@ In figure \ref{fig:Torque_radiusscaling}, the SFINCS calculation of $\tau^{NTV}$
 \caption{\label{fig:Torque_radiusscaling} SFINCS calculation of NTV torque density ($\tau^{NTV}$) as a function of ion $V_{||}$ for VMEC geometry with TF ripple only at $r/a$ = 0.5 (blue solid), 0.7 (red dashed), and 0.9 (green dash-dot). Although the field ripple decreases with radius ($\delta_B = 0.82\%$ at $r/a = 0.9$, $\delta_B = 0.51\%$ at $r/a = 0.7$, $\delta_B = 0.26\%$ at $r/a = 0.5$), transport near $E_r = 0$ increases with decreasing radius because of strong scaling of neoclassical transport with temperature in the $1/\nu$ regime.}
 \end{figure}
 
-In figure \ref{fig:alltorque}, we compare the magnitude of $\tau^{NTV}$ with $\tau^{NBI}$ and the turbulent momentum source causing intrinsic rotation, $\tau^{int} = -\nabla \cdot \Pi_{int}$. For the $\tau^{NTV}$ profile, the intrinsic rotation model is used for determining $E_r$ at each radius. $\tau^{NBI}$ is determined from NUBEAM calculations \cite{Poli2014}. $\tau^{int}$ is estimated using $\Pi_{int} \sim (\rho_{\theta}/L_T) \widetilde{\Pi}(\nu_*) Q (\langle R \rangle/v_{ti})$ (see appendix \ref{turbQ} for details). Note that in the pedestal this model of turbulent torque is large as $\tau^{turb} \sim 1/L_T$. 
+In figure \ref{fig:alltorque}, we compare the magnitude of $\tau^{NTV}$ with $\tau^{NBI}$ and the turbulent momentum source causing intrinsic rotation, $\tau^{int} = -\nabla \cdot \Pi_{int}$. For the $\tau^{NTV}$ profile, the intrinsic rotation model is used for determining $E_r$ at each radius. $\tau^{NBI}$ is determined from NUBEAM calculations \cite{Poli2014}. $\tau^{int}$ is estimated using $\Pi_{int} \sim (\rho_{\theta}/L_T) \widetilde{\Pi}(\nu_*) Q (\langle R \rangle/v_{ti})$ (see appendix \ref{turbQ} for details). Note that in the pedestal this model of turbulent torque is large as $\tau^{turb} \sim 1/L_T$. The integrated NTV torque, -40 Nm, is comparable to the NBI torque, 35 N, while the turbulent torque is significantly larger, 93 Nm. 
 
-Near the edge ($0.5 \lesssim r/a \lesssim 0.9$), NTV torque may dominate the rotation profile and will likely significantly damp rotation, decreasing MHD stability. However, the resulting rotation profile may be sheared because of the significant counter-current source at the edge and co-current NBI source in the core. This may provide a rotation shear as high as $\Delta V_{\zeta}/ \Delta r \approx 0.8 (v_{ti}/R)$ and may large enough to suppress micorturbulence and decease turbulent transport \cite{Hahm1994}. 
+Near the edge ($0.5 \lesssim r/a \lesssim 0.9$), NTV torque may dominate the rotation profile and will likely significantly damp rotation, decreasing MHD stability. However, the resulting rotation profile may be sheared because of the significant counter-current source at the edge and co-current NBI source in the core. This may provide a rotation shear as high as $\Delta V_{\zeta}/ \Delta r \approx 0.8 (v_{ti}/R)$ and may large enough to suppress microturbulence and decease turbulent transport \cite{Hahm1994}. 
 
 \begin{figure}[h!]
 \centering
@@ -238,14 +246,22 @@ While the radial ripple-drive particle fluxes will significantly alter the ITER 
 \FloatBarrier
 
 \section{Radially Local Approximation of Magnetic Drifts}\label{mds}
-Although $(\bm{v}_E + \bm{v}_m) \cdot \nabla f_1$ is formally of lower order than the other terms in eq. \ref{kineticequation}, it has been found to be important when $\rho_* \sim \nu_*$ and has been included in other calculations of 3D neoclassical transport. In the SFINCS calculations shown above the $\bm{v}_m \cdot \nabla f_1$ term has not been included. As SFINCS does not maintain radial coupling of $f_1$, there are several radially-local models of toroidal and poloidal $\bm{v}_m$ that can be applied.  The Kasilov form (eq. 67 in \cite{Kasilov2014}) ignores the toroidally varying components of $\bm{B}$ and the radial variation of $q$. The Martitsch form (eq. 16 in \cite{Martitsch2016}) is the same as the Kasilov form but maintains magnetic shear dependence. This non-local effect has been shown to be important in some NTV transport regimes \cite{Martitsch2016}. The Sugama form is obtained by subtracting off the radial component of $\bm{v}_m$ and multiplying by a factor which ensures that $\bm{v}_m (\mu = 0)  = 0$ in order to remove sources/sinks in velocity space. Each of these magnetic drift schemes are independent of the choice of Boozer angle. 
+Although $(\bm{v}_E + \bm{v}_m) \cdot \nabla f_1$ is formally of lower order than the other terms in eq. \ref{kineticequation}, it has been found to be important when $\rho_* \sim \nu_*$ and has been included in other calculations of 3D neoclassical transport. In the SFINCS calculations shown above the $\bm{v}_m \cdot \nabla f_1$ term has not been included. As SFINCS does not maintain radial coupling of $f_1$, the poloidal and toroidal drifts are retained while the radial drift is not. Several issues must be considered when these terms are present. A coordinate-dependence can be introduced when the $\bm{v}_m \cdot \nabla \psi$ term is ignored, as $\nabla \theta$ and $\nabla \zeta$ do not necessarily lie on the flux surface. For a coordinate-independent form, one must project $\bm{v}_m$ onto the flux surface. Additionally, when these terms are retained the effective particle trajectories do not satisfy $\dot{\xi} (\xi = \pm 1) = 0$, so a velocity-dependent factor can be included for regularization. To this end, we employ a coordinate-independent magnetic drift perpendicular to $\nabla \psi$,
+\begin{gather}
+\bm{v}_{ma}^{\perp} = \frac{v^2}{2B^2 \Omega_a} (\bm{B} \times \nabla \psi) \left[(1+\xi^2) \frac{\kappa_n \rvert \nabla \psi \rvert}{B} - (1 - \xi^2) \frac{\mu_0}{B} \der{p}{\psi} \right] 
+\end{gather}
+where $\kappa_n = \nabla \psi \cdot (\bm{b} \cdot \nabla \bm{b})/(\rvert \nabla \psi \rvert)$ is the normal curvature. In order to regularize the first term, we multiply it by $\alpha(\xi) = (1-\xi^2)(1+\xi^2)$. This gives
+\begin{gather}
+\bm{v}_{ma}^{\perp} = \frac{v^2}{2B^2 \Omega_a} (\bm{B} \times \nabla \psi) (1 - \xi^2) \frac{(\nabla \psi \cdot \nabla B)}{\rvert \nabla \psi \rvert^2}.
+\end{gather}
+Note that this is similar to the form presented by Sugama \cite{Sugama2016}, except for we have chosen a different form of regularization. We compare this form with the `Full Magnetic Drifts,' as given in eq. \ref{kineticequation}. 
 
-An $E_r$ scan at $r/a = 0.9$ is shown in figure \ref{fig:driftschemes}. When $\bm{v}_m \cdot \nabla f_1$ is added to the kinetic equation, the $1/\nu$ valley is shifted toward a slightly negative $E_r$, corresponding to the region where $\bm{v}_E + \bm{v}_M = 0$. However, the addition of $v_m \cdot \nabla f_1$ has a negligible effect on transport overall, and choice of magnetic drift scheme would not dramatically change the results in previous sections.  
+An $E_r$ scan at $r/a = 0.7$ is shown in figure \ref{fig:driftschemes}. When $\bm{v}_m \cdot \nabla f_1$ is added to the kinetic equation, the typical peak at $E_r = 0$ is shifted toward a slightly negative $E_r$, corresponding to the region where $\bm{v}_E + \bm{v}_M = 0$. Overall, the addition of $v_m \cdot \nabla f_1$ has a negligible effect on transport for the large $E_r$ predicted for ITER, and choice of magnetic drift scheme would not dramatically change the results in previous sections.  
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{mdscomparison.png}
-\caption{\label{fig:driftschemes} Comparison of magnetic drift models at $r/a = 0.9$. NTV torque density is calculated for the ITER steady state scenario as a function of $E_r$. The addition of $\bm{v}_m \cdot \nabla f_1$ in the kinetic equation solved by SFINCS has little effect on the neoclassical transport at this radius. }
+\caption{\label{fig:driftschemes} Comparison of magnetic drift models at $r/a = 0.7$. NTV torque density is calculated for the ITER steady state scenario as a function of $E_r$. The addition of $\bm{v}_m \cdot \nabla f_1$ in the kinetic equation solved by SFINCS has little effect on the neoclassical transport at this radius. }
 \end{figure}
 
 \FloatBarrier
@@ -257,15 +273,7 @@ We calculate neoclassical transport in the presence of 3D magnetic fields, inclu
 \appendix
 
 \section{Parallel Flow is Less Sensitive to Perturbing Field} \label{parallelflow}
-In this appendix we will show that the contribution to $V_{||}$ from $f_1$ is much smaller than the contribution to $\Gamma_{\psi}$. As $V_{||}$ is an odd moment of $v_{||}$,
-\begin{gather}
-V_{||} = \left(\frac{1}{n}\right) \int d^3 v \, v_{||} f,
-\end{gather}
-only the component of $f_1$ that is odd in $v_{||}$ will contribute. Similarly, only the component of $f_1$ that is even in $v_{||}$ will contribute to $\Gamma_{\psi}$ as it is an even moment of $v_{||}$,
-\begin{gather}
-\Gamma_{\psi} = \left \langle \int d^3v (\bm{v}_m \cdot \nabla \psi) f \right \rangle.
-\end{gather}
-Starting with the following drift kinetic equation,
+In this appendix we will show that the contribution to $V_{||}$ from $f_1$ is much smaller than the contribution to $\Gamma_{\psi}$. As $V_{||}$ is an odd moment of $v_{||}$ (eq. \ref{eq:parallelflow}), only the component of $f_1$ that is odd in $v_{||}$ will contribute. Similarly, only the component of $f_1$ that is even in $v_{||}$ will contribute to $\Gamma_{\psi}$ as it is an even moment of $v_{||}$ (eq. \ref{eq:particleflux}). Starting with the following drift kinetic equation,
 \begin{gather}
 v_{||} \bm{b} \cdot \nabla f_1 + \bm{v}_d \cdot \nabla \psi \partder{f_0}{\psi} = C(f_1),
 \end{gather}

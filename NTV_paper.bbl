@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{Albert2016}
+C.~G. Albert, M.~F. Heyn, G.~Kapper, S.~V. Kasilov, W.~Kernbichler, and A.~F.
+  Martitsch.
+\newblock {Evaluation of toroidal torque by non-resonant magnetic perturbations
+  in tokamaks for resonant transport regimes using a Hamiltonian approach}.
+\newblock {\em Physics of Plasmas}, 23(8), 2016.
+
 \bibitem{Barnes2013}
 M.~Barnes, F.~I. Parra, J.~P. Lee, E.~A. Belli, M.~F.~F. Nave, and A.~E. White.
 \newblock {Intrinsic rotation driven by non-maxwellian equilibria in tokamak
@@ -91,12 +98,6 @@ S.~C. Jardin, N.~Pomphrey, and J.~Delucia.
 \newblock {Dynamic modeling of transport and positional control of tokamaks}.
 \newblock {\em Journal of Computational Physics}, 66(2):481--507, 1986.
 
-\bibitem{Kasilov2014}
-S.~V. Kasilov, W.~Kernbichler, A.~F. Martitsch, H.~Maassberg, and M.~F. Heyn.
-\newblock {Evaluation of the toroidal torque driven by external non-resonant
-  non-axisymmetric magnetic field perturbations in a tokamak}.
-\newblock {\em Physics of Plasmas}, 21(9), 2014.
-
 \bibitem{Landreman2014}
 M.~Landreman, H.~M. Smith, A.~Moll{\'{e}}n, and P.~Helander.
 \newblock {Comparison of particle trajectories and collision operators for
@@ -176,11 +177,22 @@ K.~Shaing, S.~Sabbagh, and M.~Chu.
   viscosity in tokamaks}.
 \newblock {\em Nuclear Fusion}, 50(2):025022, feb 2010.
 
+\bibitem{Shaing1986}
+K.~C. Shaing.
+\newblock {Plasma flows and radial electric field in nonaxisymmetric toroidal
+  plasmas}.
+\newblock {\em Physics of Fluids}, 29(7):2231, 1986.
+
 \bibitem{Shaing2003}
 K.~C. Shaing.
 \newblock {Magnetohydrodynamic-activity-induced toroidal momentum dissipation
   in collisionless regimes in tokamaks}.
 \newblock {\em Physics of Plasmas}, 10(5 I):1443--1448, 2003.
+
+\bibitem{Shaing2006}
+K.~C. Shaing.
+\newblock {Time-dependent plasma viscosity in asymmetric toroidal plasmas}.
+\newblock {\em Physics of Plasmas}, 13(5):10--12, 2006.
 
 \bibitem{Shaing2008}
 K.~C. Shaing, P.~Cahyna, M.~Becoulet, J.~K. Park, S.~A. Sabbagh, and M.~S. Chu.
@@ -201,6 +213,11 @@ P.~Snyder, R.~Groebner, J.~Hughes, T.~Osborne, M.~Beurskens, a.W. Leonard,
 \newblock {A first-principles predictive model of the pedestal height and
   width: development, testing and ITER optimization with the EPED model}.
 \newblock {\em Nuclear Fusion}, 51(10):103016, 2011.
+
+\bibitem{Sugama2016}
+H.~Sugama, S.~Matsuoka, S.~Satake, and R.~Kanno.
+\newblock {Radially local approximation of drift kinetic equation}.
+\newblock {\em Physics of Plasmas}, 23:042502, 2016.
 
 \bibitem{Terry2000}
 P.~W. Terry.
