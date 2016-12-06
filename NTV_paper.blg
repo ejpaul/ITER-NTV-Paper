@@ -1,46 +1,68 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: NTV_paper.aux
-The style file: abbrv.bst
-Database file #1: ITERNTV.bib
-You've used 37 entries,
-            2118 wiz_defined-function locations,
-            749 strings with 12373 characters,
-and the built_in function-call counts, 17162 in all, are:
-= -- 1515
-> -- 1410
-< -- 0
-+ -- 560
-- -- 522
-* -- 1634
-:= -- 3072
-add.period$ -- 111
-call.type$ -- 37
-change.case$ -- 371
-chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 402
-empty$ -- 914
-format.name$ -- 522
-if$ -- 3244
-int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 37
-newline$ -- 188
-num.names$ -- 74
-pop$ -- 297
+The style file: aipnum4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: NTV_paperNotes.bib
+Database file #2: ITERNTV.bib
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{aip41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{}, control.pages{0}, control.year{N/A}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in Calvo2016
+You've used 40 entries,
+            5918 wiz_defined-function locations,
+            1932 strings with 26013 characters,
+and the built_in function-call counts, 53545 in all, are:
+= -- 2660
+> -- 2262
+< -- 395
++ -- 685
+- -- 620
+* -- 9313
+:= -- 4986
+add.period$ -- 38
+call.type$ -- 40
+change.case$ -- 152
+chr.to.int$ -- 40
+cite$ -- 41
+duplicate$ -- 4756
+empty$ -- 3654
+format.name$ -- 1231
+if$ -- 10641
+int.to.chr$ -- 1
+int.to.str$ -- 47
+missing$ -- 628
+newline$ -- 166
+num.names$ -- 114
+pop$ -- 1795
 preamble$ -- 1
-purify$ -- 334
+purify$ -- 190
 quote$ -- 0
-skip$ -- 267
+skip$ -- 1649
 stack$ -- 0
-substring$ -- 819
-swap$ -- 37
-text.length$ -- 0
+substring$ -- 890
+swap$ -- 5069
+text.length$ -- 262
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 148
-warning$ -- 0
-while$ -- 124
-width$ -- 39
-write$ -- 409
+top$ -- 10
+type$ -- 695
+warning$ -- 2
+while$ -- 148
+width$ -- 0
+write$ -- 364
+(There were 2 warnings)
