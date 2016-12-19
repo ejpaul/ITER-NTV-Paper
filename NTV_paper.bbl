@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{41}%
+\begin{thebibliography}{44}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -565,6 +565,33 @@
   {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {55}},\ \bibinfo {pages}
   {032003} (\bibinfo {year} {2015})},\ \Eprint
   {http://arxiv.org/abs/1407.2121v2} {arXiv:1407.2121v2} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berkery}\ \emph {et~al.}(2010)\citenamefont
+  {Berkery}, \citenamefont {Sabbagh}, \citenamefont {Betti}, \citenamefont
+  {Hu}, \citenamefont {Bell}, \citenamefont {Gerhardt}, \citenamefont
+  {Manickam},\ and\ \citenamefont {Tritz}}]{Berkery2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Berkery}}, \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Sabbagh}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Betti}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Hu}}, \bibinfo {author}
+  {\bibfnamefont {R.~E.}\ \bibnamefont {Bell}}, \bibinfo {author}
+  {\bibfnamefont {S.~P.}\ \bibnamefont {Gerhardt}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Manickam}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Tritz}},\ }\href {\doibase
+  10.1103/PhysRevLett.104.035003} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {104}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2009)\citenamefont {Liu},
+  \citenamefont {Chu}, \citenamefont {Chapman},\ and\ \citenamefont
+  {Hender}}]{Liu2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Chu}}, \bibinfo
+  {author} {\bibfnamefont {I.~T.}\ \bibnamefont {Chapman}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Hender}},\ }\href {\doibase
+  10.1088/0029-5515/49/3/035004} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {49}},\ \bibinfo {pages}
+  {035004} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Albert}\ \emph {et~al.}(2016)\citenamefont {Albert},
   \citenamefont {Heyn}, \citenamefont {Kapper}, \citenamefont {Kasilov},
   \citenamefont {Kernbichler},\ and\ \citenamefont {Martitsch}}]{Albert2016}%
@@ -627,6 +654,18 @@
   \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Alonso}},\
   }\href@noop {} {\  (\bibinfo {year} {2016})},\ \Eprint
   {http://arxiv.org/abs/1610.06016} {arXiv:1610.06016} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Matsuoka}\ \emph {et~al.}(2015)\citenamefont
+  {Matsuoka}, \citenamefont {Satake}, \citenamefont {Kanno},\ and\
+  \citenamefont {Sugama}}]{Matsuoka2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Matsuoka}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Satake}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Kanno}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Sugama}},\ }\href {\doibase
+  10.1063/1.4923434} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Plasmas}\ }\textbf {\bibinfo {volume} {22}} (\bibinfo {year} {2015}),\
+  10.1063/1.4923434},\ \Eprint {http://arxiv.org/abs/1502.06390}
+  {arXiv:1502.06390} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sugama}\ \emph {et~al.}(2016)\citenamefont {Sugama},
   \citenamefont {Matsuoka}, \citenamefont {Satake},\ and\ \citenamefont
   {Kanno}}]{Sugama2016}%
