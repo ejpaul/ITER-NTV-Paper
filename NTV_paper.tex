@@ -129,7 +129,7 @@ Here $R$ major radius, $m_i$ is the ion mass, $n_i$ is the ion density, and $\ch
 \end{gather}
 where $\sqrt{g}$ is the Jacobian. As it is difficult to model the interactions between external torques and intrinsic rotation, these two effects are considered separately in order to generate two estimates for $V_{\zeta}$. To estimate NBI-drive rotation, TRANSP evolves the rotation profiles by balancing turbulent diffusion (assuming $\chi_{\zeta} = \chi_{i}$, the ion heat diffusivity) and models of neutral beam torques from NUBEAM. The following momentum balance equation is solved,
 \begin{gather}
-\tau^{\text{NBI}} = -m_i n_i \chi_{i} \langle R \rangle \partder{V_{\zeta}}{r},
+\tau^{\text{NBI}} = -\frac{1}{r} \partder{}{r} \left( r m_i n_i \chi_{i} \langle R \rangle \partder{V_{\zeta}}{r} \right),
 \end{gather}
 where $\tau^{\text{NBI}}$ is the total beam torque density calculated by NUBEAM including collisional, $\bm{J} \times \bm{B}$, thermalization, and recombination torques.
 
