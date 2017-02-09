@@ -24,45 +24,45 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--missing journal in Calvo2016
-You've used 78 entries,
+You've used 81 entries,
             5918 wiz_defined-function locations,
-            2194 strings with 35879 characters,
-and the built_in function-call counts, 98456 in all, are:
-= -- 5182
-> -- 3993
-< -- 692
-+ -- 1218
-- -- 1073
-* -- 16641
-:= -- 9413
-add.period$ -- 76
-call.type$ -- 78
-change.case$ -- 304
-chr.to.int$ -- 74
-cite$ -- 79
-duplicate$ -- 8736
-empty$ -- 6817
-format.name$ -- 2157
-if$ -- 19616
+            2218 strings with 36242 characters,
+and the built_in function-call counts, 100134 in all, are:
+= -- 5352
+> -- 3988
+< -- 698
++ -- 1220
+- -- 1069
+* -- 16798
+:= -- 9641
+add.period$ -- 79
+call.type$ -- 81
+change.case$ -- 316
+chr.to.int$ -- 77
+cite$ -- 82
+duplicate$ -- 8893
+empty$ -- 6956
+format.name$ -- 2148
+if$ -- 19940
 int.to.chr$ -- 5
-int.to.str$ -- 85
-missing$ -- 1154
-newline$ -- 280
-num.names$ -- 228
-pop$ -- 3367
+int.to.str$ -- 88
+missing$ -- 1178
+newline$ -- 289
+num.names$ -- 237
+pop$ -- 3447
 preamble$ -- 1
-purify$ -- 380
+purify$ -- 395
 quote$ -- 0
-skip$ -- 3136
+skip$ -- 3220
 stack$ -- 0
-substring$ -- 1809
-swap$ -- 9141
-text.length$ -- 451
+substring$ -- 1897
+swap$ -- 9258
+text.length$ -- 447
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 1303
+type$ -- 1332
 warning$ -- 2
-while$ -- 294
+while$ -- 307
 width$ -- 0
-write$ -- 661
+write$ -- 683
 (There were 2 warnings)
