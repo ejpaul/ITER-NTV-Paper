@@ -26,41 +26,41 @@ Control: production of eprint (0) enabled
 Warning--missing journal in Calvo2016
 You've used 84 entries,
             5918 wiz_defined-function locations,
-            2240 strings with 37612 characters,
-and the built_in function-call counts, 106042 in all, are:
-= -- 5585
-> -- 4299
-< -- 745
-+ -- 1310
-- -- 1153
-* -- 17918
-:= -- 10139
+            2240 strings with 37621 characters,
+and the built_in function-call counts, 105909 in all, are:
+= -- 5584
+> -- 4292
+< -- 741
++ -- 1308
+- -- 1151
+* -- 17887
+:= -- 10133
 add.period$ -- 82
 call.type$ -- 84
 change.case$ -- 328
 chr.to.int$ -- 80
 cite$ -- 85
-duplicate$ -- 9405
-empty$ -- 7348
-format.name$ -- 2323
-if$ -- 21133
+duplicate$ -- 9391
+empty$ -- 7339
+format.name$ -- 2319
+if$ -- 21107
 int.to.chr$ -- 5
 int.to.str$ -- 91
-missing$ -- 1242
+missing$ -- 1241
 newline$ -- 298
 num.names$ -- 246
-pop$ -- 3624
+pop$ -- 3622
 preamble$ -- 1
 purify$ -- 410
 quote$ -- 0
-skip$ -- 3378
+skip$ -- 3379
 stack$ -- 0
 substring$ -- 1963
-swap$ -- 9842
-text.length$ -- 485
+swap$ -- 9822
+text.length$ -- 481
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 1403
+type$ -- 1402
 warning$ -- 2
 while$ -- 319
 width$ -- 0

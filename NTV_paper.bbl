@@ -400,7 +400,7 @@
   {Kawashima}, \citenamefont {Sato}, \citenamefont {Tsuzuki}, \citenamefont
   {Miura}, \citenamefont {Isei}, \citenamefont {Kimura}, \citenamefont
   {Nakayama}, \citenamefont {Abe}, \citenamefont {Darrow},\ and\ \citenamefont
-  {Group}}]{Kawashima2001}%
+  {the JFT-2M~Group}}]{Kawashima2001}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
   {Kawashima}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sato}},
@@ -410,11 +410,10 @@
   {H.}~\bibnamefont {Kimura}}, \bibinfo {author} {\bibfnamefont
   {T.}~\bibnamefont {Nakayama}}, \bibinfo {author} {\bibfnamefont
   {M.}~\bibnamefont {Abe}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Darrow}}, \ and\ \bibinfo {author} {\bibfnamefont {J.-M.}\ \bibnamefont
-  {Group}},\ }\href {https://doi.org/10.1088/0029-5515/41/3/302} {\bibfield
-  {journal} {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume}
-  {41}},\ \bibinfo {pages} {257} (\bibinfo {year} {2001})}\BibitemShut
-  {NoStop}%
+  {Darrow}}, \ and\ \bibinfo {author} {\bibnamefont {the JFT-2M~Group}},\
+  }\href {https://doi.org/10.1088/0029-5515/41/3/302} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {41}},\
+  \bibinfo {pages} {257} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Stringer}(1972)}]{Stringer1972}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~E.}\ \bibnamefont
@@ -652,7 +651,7 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
   {Satake}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Sugama}},
   \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Kanno}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {J.-K.}\ \bibnamefont {Park}},\ }\href {\doibase
+  {author} {\bibfnamefont {J.~K.}\ \bibnamefont {Park}},\ }\href {\doibase
   10.1088/0741-3335/53/5/054018} {\bibfield  {journal} {\bibinfo  {journal}
   {Plasma Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume} {53}},\
   \bibinfo {pages} {054018} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut
@@ -1071,21 +1070,21 @@
   \bibinfo {pages} {114} (\bibinfo {year} {1974})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Connor}\ \emph {et~al.}(2004)\citenamefont {Connor},
   \citenamefont {Fukuda}, \citenamefont {Garbet}, \citenamefont {Gormezano},
-  \citenamefont {Mukhovatov}, \citenamefont {Wakatani}, \citenamefont {Group},
-  \citenamefont {on~Transport},\ and\ \citenamefont {Physics}}]{Connor2004}%
+  \citenamefont {Mukhovatov}, \citenamefont {Wakatani}, \citenamefont {{{the
+  ITB Database Group}}},\ and\ \citenamefont {{{the ITPA Topical Group on
+  Transport and Internal Barrier Physics}}}}]{Connor2004}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Connor}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Fukuda}},
   \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Garbet}}, \bibinfo
   {author} {\bibfnamefont {C.}~\bibnamefont {Gormezano}}, \bibinfo {author}
   {\bibfnamefont {V.}~\bibnamefont {Mukhovatov}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Wakatani}}, \bibinfo {author}
-  {\bibfnamefont {t.~I.~D.}\ \bibnamefont {Group}}, \bibinfo {author}
-  {\bibfnamefont {t.~I. T.~G.}\ \bibnamefont {on~Transport}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {I.~B.}\ \bibnamefont {Physics}},\ }\href {\doibase
-  10.1088/0029-5515/44/4/R01} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo {pages} {R1}
-  (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+  {\bibfnamefont {M.}~\bibnamefont {Wakatani}}, \bibinfo {author} {\bibnamefont
+  {{{the ITB Database Group}}}}, \ and\ \bibinfo {author} {\bibnamefont {{{the
+  ITPA Topical Group on Transport and Internal Barrier Physics}}}},\ }\href
+  {\doibase 10.1088/0029-5515/44/4/R01} {\bibfield  {journal} {\bibinfo
+  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo
+  {pages} {R1} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Waltz}, \citenamefont {Kerbel},\ and\ \citenamefont
   {Milovich}(1994)}]{Waltz1994}%
   \BibitemOpen
