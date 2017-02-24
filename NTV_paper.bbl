@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{79}%
+\begin{thebibliography}{82}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -207,13 +207,29 @@
   {http://link.aps.org/doi/10.1103/PhysRevLett.101.195005} {\bibfield
   {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
   {volume} {101}} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Reimerdes}(2009)}]{Reimerdes2009}%
+\bibitem [{\citenamefont {Reimerdes}\ \emph {et~al.}(2009)\citenamefont
+  {Reimerdes}, \citenamefont {Garofalo}, \citenamefont {Strait}, \citenamefont
+  {Buttery}, \citenamefont {Chu}, \citenamefont {In}, \citenamefont {Jackson},
+  \citenamefont {{La Haye}}, \citenamefont {Lanctot}, \citenamefont {Liu},
+  \citenamefont {Okabayashi}, \citenamefont {Park}, \citenamefont {Schaffer},\
+  and\ \citenamefont {Solomon}}]{Reimerdes2009}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Reimerdes}},\ }\href {\doibase 10.1088/0029-5515/49/11/115001} {\bibfield
-  {journal} {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume}
-  {49}},\ \bibinfo {pages} {115001} (\bibinfo {year} {2009})}\BibitemShut
-  {NoStop}%
+  {Reimerdes}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Garofalo}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Strait}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Buttery}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Chu}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {In}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Jackson}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{La Haye}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Lanctot}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Okabayashi}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Park}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Schaffer}}, \ and\
+  \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Solomon}},\ }\href
+  {\doibase 10.1088/0029-5515/49/11/115001} {\bibfield  {journal} {\bibinfo
+  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {49}},\ \bibinfo
+  {pages} {115001} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Honda}\ \emph {et~al.}(2014)\citenamefont {Honda},
   \citenamefont {Satake}, \citenamefont {Suzuki}, \citenamefont {Matsunaga},
   \citenamefont {Shinohara}, \citenamefont {Yoshida}, \citenamefont
@@ -841,6 +857,22 @@
   10.1088/0029-5515/54/7/073007} {\bibfield  {journal} {\bibinfo  {journal}
   {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {54}},\ \bibinfo {pages}
   {073007} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Elwasif}\ \emph {et~al.}(2010)\citenamefont
+  {Elwasif}, \citenamefont {Bernholdt}, \citenamefont {Shet}, \citenamefont
+  {Foley}, \citenamefont {Bramley}, \citenamefont {Batchelor},\ and\
+  \citenamefont {Berry}}]{Elwasif2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~R.}\ \bibnamefont
+  {Elwasif}}, \bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Bernholdt}}, \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont {Shet}},
+  \bibinfo {author} {\bibfnamefont {S.~S.}\ \bibnamefont {Foley}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Bramley}}, \bibinfo {author}
+  {\bibfnamefont {D.~B.}\ \bibnamefont {Batchelor}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {L.~A.}\ \bibnamefont {Berry}},\ }\href {\doibase
+  10.1109/PDP.2010.63} {\bibfield  {journal} {\bibinfo  {journal} {Proceedings
+  of the 18th Euromicro Conference on Parallel, Distributed and Network-Based
+  Processing}\ ,\ \bibinfo {pages} {419}} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Jardin}, \citenamefont {Pomphrey},\ and\
   \citenamefont {Delucia}(1986)}]{Jardin1986}%
   \BibitemOpen
@@ -858,15 +890,31 @@
   {Physics of plasmas close to thermonuclear conditions}\ }\textbf {\bibinfo
   {volume} {1}},\ \bibinfo {pages} {19} (\bibinfo {year} {1980})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Jardin}, \citenamefont {Bell},\ and\ \citenamefont
-  {Pomphrey}(1993)}]{Jardin1993}%
+\bibitem [{\citenamefont {Fukuyama}\ \emph {et~al.}(1995)\citenamefont
+  {Fukuyama}, \citenamefont {Itoh}, \citenamefont {Itoh}, \citenamefont
+  {Yagi},\ and\ \citenamefont {Azumi}}]{Fukuyama1995}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~C.}\ \bibnamefont
-  {Jardin}}, \bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont {Bell}}, \
-  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Pomphrey}},\ }\href
-  {\doibase 10.1088/0029-5515/33/3/I01} {\bibfield  {journal} {\bibinfo
-  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo
-  {pages} {371} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fukuyama}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Itoh}},
+  \bibinfo {author} {\bibfnamefont {S.~I.}\ \bibnamefont {Itoh}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Yagi}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Azumi}},\ }\href
+  {https://doi.org/10.1088/0741-3335/40/5/016} {\bibfield  {journal} {\bibinfo
+  {journal} {Plasma Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume}
+  {37}},\ \bibinfo {pages} {611} (\bibinfo {year} {1995})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fukuyama}\ \emph {et~al.}(1998)\citenamefont
+  {Fukuyama}, \citenamefont {Takatsuka}, \citenamefont {Itoh}, \citenamefont
+  {Yagi},\ and\ \citenamefont {Itoh}}]{Fukuyama1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fukuyama}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Takatsuka}},
+  \bibinfo {author} {\bibfnamefont {S.-I.}\ \bibnamefont {Itoh}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Yagi}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Itoh}},\ }\href {\doibase
+  10.1088/0741-3335/40/5/016} {\bibfield  {journal} {\bibinfo  {journal}
+  {Plasma Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume} {40}},\
+  \bibinfo {pages} {653} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Snyder}\ \emph {et~al.}(2011)\citenamefont {Snyder},
   \citenamefont {Groebner}, \citenamefont {Hughes}, \citenamefont {Osborne},
   \citenamefont {Beurskens}, \citenamefont {Leonard}, \citenamefont {Wilson},\
@@ -1021,12 +1069,32 @@
   {Hastie}},\ }\href {\doibase 10.1063/1.1694573} {\bibfield  {journal}
   {\bibinfo  {journal} {Physics of Fluids}\ }\textbf {\bibinfo {volume} {17}},\
   \bibinfo {pages} {114} (\bibinfo {year} {1974})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Hahm}(1994)}]{Hahm1994}%
+\bibitem [{\citenamefont {Connor}\ \emph {et~al.}(2004)\citenamefont {Connor},
+  \citenamefont {Fukuda}, \citenamefont {Garbet}, \citenamefont {Gormezano},
+  \citenamefont {Mukhovatov}, \citenamefont {Wakatani}, \citenamefont {Group},
+  \citenamefont {on~Transport},\ and\ \citenamefont {Physics}}]{Connor2004}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont
-  {Hahm}},\ }\href {\doibase 10.1063/1.870534} {\bibfield  {journal} {\bibinfo
-  {journal} {Physics of Plasmas}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo
-  {pages} {2940} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Connor}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Fukuda}},
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Garbet}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Gormezano}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Mukhovatov}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Wakatani}}, \bibinfo {author}
+  {\bibfnamefont {t.~I.~D.}\ \bibnamefont {Group}}, \bibinfo {author}
+  {\bibfnamefont {t.~I. T.~G.}\ \bibnamefont {on~Transport}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {I.~B.}\ \bibnamefont {Physics}},\ }\href {\doibase
+  10.1088/0029-5515/44/4/R01} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo {pages} {R1}
+  (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Waltz}, \citenamefont {Kerbel},\ and\ \citenamefont
+  {Milovich}(1994)}]{Waltz1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Waltz}}, \bibinfo {author} {\bibfnamefont {G.~D.}\ \bibnamefont {Kerbel}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Milovich}},\ }\href
+  {\doibase 10.1063/1.870934} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics of Plasmas}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo {pages}
+  {2229} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Shaing}, \citenamefont {Sabbagh},\ and\ \citenamefont
   {Chu}(2009{\natexlab{c}})}]{Shaing2009_sb}%
   \BibitemOpen
