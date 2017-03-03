@@ -311,6 +311,7 @@ Note that the $\nabla B$ drift term is regularized while the curvature drift ter
 This is similar to the form presented by Sugama,\cite{Sugama2016} but we have chosen a different form of regularization. Furthermore, we consider a non-local form of the tangential magnetic drifts,
 \begin{multline}
 \bm{v}_{\mathrm{m}a}^{\mathrm{NL}} = \frac{v^2}{2\Omega_a B^2} (1 + \xi^2) \left[ B_{\psi}\left( \partder{B}{\theta} + q \partder{B}{\zeta} \right) - (B_{\theta} + q B_{\zeta}) \partder{B}{\psi} \right] \\ + \frac{v^2 \xi^2}{\Omega_a B} \left[\partder{}{\psi} (B_{\theta} + q B_{\zeta}) - \left( \partder{B_{\psi}}{\theta} + q \partder{B_{\psi}}{\zeta} \right)\right]. 
+\label{eq:mds4}
 \end{multline}
 This is formed by bounce-averaging the cross-field component of the magnetic drift, $\bm{v}_{\mathrm{m}a} \cdot \nabla \phi_0$, with the assumption of small symmetry-breaking. Here $\phi_0 = \zeta - q \theta$. Note that the effect of magnetic shear is included in the above expression. This non-local form including shear has been implemented in NEO-2 and has been shown to modify the superbanana resonance condition.\cite{Albert2016} The non-local version of NEO-2 has been benchmarked\cite{Martitsch2016} with the superbanana plateau analytic formula including the effects of shear\cite{Shaing2015} and the semi-analytic Hamiltonian model.\cite{Albert2016}
 
@@ -321,7 +322,7 @@ When the in-surface magnetic drifts are present the depth of the resonant peak i
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{figure13.eps}
-\caption{\label{fig:driftschemes} Calculation of NTV torque density, $\tau^{\mathrm{NTV}}$, as a function of $E_r$ at $r/a = 0.7$. The blue dashed curve corresponds to a SFINCS calculation without $\bm{v}_m \cdot \nabla f_1$ in the DKE. The orange dash-dot curve corresponds to the addition of $\bm{v}_m \cdot \nabla f_1$ as given in equation \ref{eq:mds1}. The green solid curve corresponds to the addition of the projected and regularized drift, $\bm{v}^{\perp}_{\text{m}} \cdot \nabla f_1$, as given in equation \ref{eq:mds5}.}
+\caption{\label{fig:driftschemes} Calculation of NTV torque density, $\tau^{\mathrm{NTV}}$, as a function of $E_r$ at $r/a = 0.7$. The blue dashed curve corresponds to a SFINCS calculation without $\bm{v}_m \cdot \nabla f_1$ in the DKE. The orange dash-dot curve corresponds to the addition of $\bm{v}_m \cdot \nabla f_1$ as given in equation \ref{eq:mds1}. The black solid curve corresponds to the addition of the projected and regularized drift, $\bm{v}^{\perp}_{\text{m}} \cdot \nabla f_1$, as given in equation \ref{eq:mds5}. The green solid curve corresponds to the addition of $\bm{v}^{\text{NL}}_{\text{m}} \cdot \nabla f_1$, as given in equation \ref{eq:mds4}. }
 \end{figure}
 
 \FloatBarrier
