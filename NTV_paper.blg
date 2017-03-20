@@ -26,7 +26,7 @@ Control: production of eprint (0) enabled
 Warning--missing journal in Calvo2016
 You've used 86 entries,
             5918 wiz_defined-function locations,
-            2252 strings with 38043 characters,
+            2252 strings with 38046 characters,
 and the built_in function-call counts, 107617 in all, are:
 = -- 5708
 > -- 4340

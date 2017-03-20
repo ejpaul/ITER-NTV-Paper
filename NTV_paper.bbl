@@ -878,9 +878,9 @@
   {\bibfnamefont {D.~B.}\ \bibnamefont {Batchelor}}, \ and\ \bibinfo {author}
   {\bibfnamefont {L.~A.}\ \bibnamefont {Berry}},\ }\href {\doibase
   10.1109/PDP.2010.63} {\bibfield  {journal} {\bibinfo  {journal} {Proceedings
-  of the 18th Euromicro Conference on Parallel, Distributed and Network-Based
-  Processing}\ ,\ \bibinfo {pages} {419}} (\bibinfo {year} {2010})}\BibitemShut
-  {NoStop}%
+  of the 18th Euromicro Conference on Parallel, Distributed and \\
+  Network-Based Processing}\ ,\ \bibinfo {pages} {419}} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Jardin}, \citenamefont {Pomphrey},\ and\
   \citenamefont {Delucia}(1986)}]{Jardin1986}%
   \BibitemOpen
@@ -968,7 +968,7 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Lee}},\ }\emph {\bibinfo {title} {Theoretical Study of Ion Toroidal Rotation
   in the Presence of Lower Hybrid Current Drive in a Tokamak}},\ \href@noop {}
-  {Ph.D. thesis},\ \bibinfo  {school} {MASSACHUSETTS INSTITUTE OF TECHNOLOGY}
+  {Ph.D. thesis},\ \bibinfo  {school} {Massachusetts Institute of Technology}
   (\bibinfo {year} {2013})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hillesheim}\ \emph {et~al.}(2015)\citenamefont
   {Hillesheim}, \citenamefont {Parra}, \citenamefont {Barnes}, \citenamefont
